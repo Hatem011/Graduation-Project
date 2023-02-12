@@ -1,0 +1,60 @@
+.home{
+    background-image: url(../../imgs/hero.jpg);
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    height: 100vh;
+    position: relative;
+}
+.home-layer
+{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 10%;
+    color: #fff;
+} 
+.home h4{
+    color: #09c;
+    position: relative;
+    padding-bottom:10px ;
+}
+.home h4::before{
+    content: '';
+    position: absolute;
+    width: 245px;
+    height: 4px;
+    bottom: 0;
+    background-color: gainsboro;
+}
+.home h1{
+    font-size: 4rem;
+    font-weight: bolder;
+    line-height: 1.2;
+}
+.home-heading button{
+   margin-top: 20px;
+    border: 1px solid #fff;
+    padding:15px 35px;
+    border-radius: 35px;
+    font-weight: bold;
+    font-size: 18px;
+}
+.home-heading .btn1{
+   color: black;
+   background-color: #fff;
+   margin: 0 20px;
+}
+.home .btn2
+{
+   color: #fff;
+   background-color: transparent;
+   transition: all .7s;
+}
+.btn2:hover{
+    background-color: #fff;
+    color: black;
+}

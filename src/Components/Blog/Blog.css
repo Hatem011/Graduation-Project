@@ -1,0 +1,48 @@
+
+
+.blog h4{
+    color: #09c;
+    position: relative;
+    padding-bottom:10px ;
+}
+.blog h4::before{
+    content: '';
+    width: 105px;
+    height: 4px;
+    background-color: gainsboro;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+}
+.blog h1{
+font-size: 3rem;
+font-weight: bold;
+color: #1D2A4D;
+}
+
+.blog-item {
+    background-color: #F5F9FF;
+    margin: 15px 0;
+}
+.blog-item img{
+   border-top-right-radius: 8px;
+   border-top-left-radius: 8px;
+}
+.blog-item a {
+text-decoration: none;
+color: #000;
+font-size: 20px;
+font-weight: bold;
+}
+.blog-item p{
+    color: gray;
+}
+.user-img img{
+    width: 30px;
+}
+.blog-item span{
+    color: gray;
+}
+.user-info i{
+    color: #09c;
+}
